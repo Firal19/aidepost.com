@@ -1,0 +1,21 @@
+{
+  "name": "aidepost-com",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Aidepost — Open shifts and jobs in care homes. aidepost.com",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs && node tools/serve.mjs",
+    "check": "node tools/check.mjs",
+    "icons": "node tools/icons.mjs",
+    "shots": "node tools/shots.mjs",
+    "convex:deploy": "npx convex deploy -y"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "convex": "^1.46.0"
+  }
+}
