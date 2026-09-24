@@ -1558,3 +1558,13 @@ html[data-mode="dark"] .record { background: #08100F; --card: #142523; --wash: #
      scroll-padding already pays that. Here, after the 640 tier, on order. */
   .tl-i { scroll-margin-top: 0; }
 }
+
+/* ═══ ROUND 4 · Cohort's skin on the shared pieces ═══════════════════════
+   Nothing red on Cohort: the price that fits, the chapter rail's dots and
+   its hairline wear the house teal, never the coral accent. */
+.pc-co .pc-plan.is-main { box-shadow: inset 0 3px 0 var(--teal); }
+.pc-co .pc-plan[data-fits] { border-color: var(--teal); }
+.pc-co .pc-plan.is-main[data-fits] { box-shadow: inset 0 3px 0 var(--teal), 0 20px 44px -30px rgba(0, 0, 0, .5); }
+.pc-co .pc-fit, .pc-co .pc-name em { color: var(--teal); }
+.crl-a[data-try]::after, .crl-p::before { background: var(--teal); }
+.fsh .eos-so { display: inline-flex; align-items: center; gap: 8px; margin: 0; }
